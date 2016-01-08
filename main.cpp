@@ -168,10 +168,10 @@ int main(int argc, char *argv[]){
     
     //
     // print all macros to test 
-    // printAllMacros(macros);    
+    printAllMacros(macros);    
     //
     // print all terminals to test
-    // printAllTerminals(terminals);
+    printAllTerminals(terminals);
     
     int numNets = 0;
     vector< Net > nets;
@@ -204,6 +204,6 @@ int main(int argc, char *argv[]){
     }
     
     // print all nets to test 
-    // printAllNets(nets);
+    //printAllNets(nets);
 
 }
